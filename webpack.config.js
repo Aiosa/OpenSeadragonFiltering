@@ -63,7 +63,8 @@ module.exports = {
             from: 'demo/static',
             to: 'static'
         }, {
-            from: 'demo/*'
+            from: 'demo/style.css',
+            to: 'style.css'
         }
         ]),
         new webpack.LoaderOptionsPlugin({

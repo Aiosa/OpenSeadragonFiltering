@@ -5,6 +5,9 @@
         "newline-after-var": 0,
         "dot-location": [2, "property"]
     },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
     "globals": {
         "window": true,
         "define": true,
